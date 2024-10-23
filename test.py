@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import pandas as pd
     
-base_url = "https://vrp1ivq3aa.execute-api.ap-southeast-2.amazonaws.com/production/"
+base_url = "<PLACE YOUR INVOKE URL HERE AFTER THE LAST STEP>"
 
 def fetch_all_employees():
     response = requests.get(f"{base_url}employees")
