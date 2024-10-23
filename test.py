@@ -17,7 +17,14 @@ def display_employee_table(employees):
     if employees:
         df = pd.DataFrame(employees)
         if {'employee_id', 'full_name', 'movie', 'age'}.issubset(df.columns):
-            st.table(df[['employee_id', 'full_name', 'movie', 'age']])
+            # Rename the columns as per the desired format
+            df = df.rename(columns={
+                'employee_id': 'Employee ID',
+                'full_name': 'Full Name',
+                'movie': 'Movie',
+                'age': 'Age'
+            })
+            st.table(df[['Employee ID', 'Full Name', 'Movie', 'Age']])
         else:
             st.error("The expected columns are not in the API response.")
     else:
