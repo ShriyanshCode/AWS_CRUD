@@ -24,7 +24,17 @@
 9. Create a GET Method in /employees Resource.
 10. Final Resources, Methods and API Gateways should look something like this:
  ![image](https://github.com/user-attachments/assets/6b6b6bf6-e1bd-43ea-9c61-2b26654ae973)
-11. Come back to AWS Lambda page, select your lambda function(here it is called"sereverless"). 
+11. Deploy the API by clicking "Deploy API" on the top right corner (select new stage and give it a name):
+  ![image](https://github.com/user-attachments/assets/679197cb-c33d-40a1-b3dd-651177c3afc2)
+   Copy to your "Invoke URL" 
+  ![roles](https://github.com/user-attachments/assets/1322ecd9-9e5b-4ee7-9efc-96f753cd5117)
+  On a new tab paste this the invoke URL with a /status following it, it'll look something like this:
+  https://abc0def0gh.execute-api.ap-southeast-2.amazonaws.com/production/status
+  Expected output:
+  "Hello from AWS Lambda!" as json 
+12. Come back to AWS Lambda page, select your lambda function(here it is called"sereverless"). 
 Scroll to the code section and paste the given lambda function code,you can modify it as you want.
 This is a basic one i found on a youtube video. (/lambda_function.py)
  ![image](https://github.com/user-attachments/assets/d4797eec-ee23-4dfa-85f4-f8e07b8c6fb0)
+Go back to this link: https://abc0def0gh.execute-api.ap-southeast-2.amazonaws.com/production/status
+   ![image](https://github.com/user-attachments/assets/c2fc374a-968f-4b5e-b8a2-01d29c802ac6)
