@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/242e74f9-017a-4094-8a9b-b164d77c86bb)# AWS_CRUD
+ AWS_CRUD
 1. Create Dynamodb
   ![image](https://github.com/user-attachments/assets/f490744c-6735-4d26-8253-a0a2ce518291)
 2. Create a Lambda function:
