@@ -117,7 +117,7 @@ Your resources, methods, and API Gateway setup should look like this:
 
   https://abc0def0gh.execute-api.ap-southeast-2.amazonaws.com/production/status
 
-- You should get a similar response:
+- You should get this response, using given lambda_function.py:
 
 ![image](https://github.com/user-attachments/assets/c2fc374a-968f-4b5e-b8a2-01d29c802ac6)
 
